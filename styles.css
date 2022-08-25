@@ -1,0 +1,75 @@
+*,
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(101, 101, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 20px 0;
+    color: rgb(112, 110, 110);
+}
+
+p {
+font-size: 12px;
+color: grey;
+margin-top: 10px;
+}
+
+span {
+    text-align: end;
+    margin-left: 30px;
+}
+
+.container {
+    width: 33.33%;
+    min-height: 300px;
+    text-align: center;
+    margin: 100px 33.33%;
+    background-color: white;
+    border: 1px solid grey;
+    z-index: 1;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#inputField {
+    width: 70%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+#addTodo {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(110, 110, 223, 0.966);
+    border: 1px solid grey;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    vertical-align: middle;
+    color: white;
+}
+
+.todos {
+    margin-top: 25px;
+    list-style-type: disc;
+}
+
+.list-styling {
+    margin: 20px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;   
+}
