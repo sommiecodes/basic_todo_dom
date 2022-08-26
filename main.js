@@ -2,6 +2,7 @@ let addTodoButton = document.getElementById("addTodo");
 let todoContainer = document.getElementById("todoContainer");
 let inputField = document.getElementById("inputField");
 
+
 addTodoButton.addEventListener("click", function () {
   var list = document.createElement("li");
   list.classList.add("list-styling");
